@@ -15,6 +15,8 @@ COPY . ./
 
 RUN npm install
 RUN hexo deploy
-RUN mv /tmp/build/public  /usr/share/nginx/html/
+WORKDIR /usr/share/nginx/html
+RUN mv /tmp/build/public  ./
+COPY favicon.ico ./public/
 
 CMD nginx -g "daemon off;"
