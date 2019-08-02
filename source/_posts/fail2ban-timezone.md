@@ -14,7 +14,7 @@ Pourquoi ? Plus de place, possibilité d'utiliser docker tranquilement (les imag
 
 Pour info mon Raspberry me servait essentiellement de serveur Upnp pour regarder mes films et séries sur la Freebox.
 
-Aprés avoir mis en place le dual boot et installer (merci à ce [tuto](https://github.com/recalbox/recalbox-os/wiki/Cr%C3%A9er-un-dualboot-raspbian-recalbox)), un des premiers step à faire est de sécuriser un minimum l'accès (notamment en ssh) au Raspberry. Bon si vous ne l'exposez pas à l'extérieur c'est moins critique mais j'ai personnellement choisi de forward le port ssh de ma box sur le raspberry pour pouvoir bidouiller dessus à distance.
+Aprés avoir mis en place le dual boot (merci à ce [tuto](https://github.com/recalbox/recalbox-os/wiki/Cr%C3%A9er-un-dualboot-raspbian-recalbox)), un des premiers step à faire est de sécuriser un minimum l'accès (notamment en ssh) au Raspberry. Bon si vous ne l'exposez pas à l'extérieur c'est moins critique mais j'ai personnellement choisi de forward le port ssh de ma box sur le raspberry pour pouvoir bidouiller dessus à distance.
 
 Dès le boot on remarque rapidement des bots qui scannent un peu toutes les ip et tentent d'accéder en SSH au serveur (notamment en root) : 
 ```
